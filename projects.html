@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background with Navbar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/project.css">
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand ml-5" style="font-size: 2rem;"><b>My Portfolio</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link mr-5" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-5" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-5" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-5" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-5" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="projects">
+        <div class="about-me-text">
+            <h1>My<span class="highlight">Projects</span></h1>
+        </div>
+        <div class="project-container">
+          <div class="project">
+            <div class="project-image">
+              <img src="candy.jpg" alt="Candy Castle">
+            </div>
+            <div class="project-info">
+              <h2>Candy Castle</h2>
+              <h5>A user-friendly web interface designed to enhance user experience with interactive features. Developed an engaging web page using HTML, CSS, and JavaScript. Implemented responsive design to ensure compatibility across different devices. Added interactive elements to improve user engagement and satisfaction.</h5>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-image">
+              <img src="cancer.jpg" alt="Breast Cancer Detection">
+            </div>
+            <div class="project-info">
+              <h3>Early Breast Cancer Detection Using Nanoparticle Sensor And Machine Learning Algorithms</h3>
+              <h5>Research paper presented at IEEE CONIT 2024, organized by IEEE Bangalore Section from June 21st to 23rd, 2024. Collaborated with a team of three to develop a website that detects breast cancer or not. Developed a machine learning model to identify patterns in both nanoparticle sensor and urine sample databases. Integrated the website using Flask for early breast cancer detection."</h5>
+              <a href="conference.pdf" class="button" style="background-color: #00bcd4; color: white;">Paper</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
